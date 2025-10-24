@@ -57,7 +57,7 @@
             btnDeal.Name = "btnDeal";
             btnDeal.Size = new Size(97, 52);
             btnDeal.TabIndex = 0;
-            btnDeal.Text = "Deal";
+            btnDeal.Text = "&Deal";
             btnDeal.UseVisualStyleBackColor = true;
             btnDeal.Click += btnDeal_Click;
             // 
@@ -67,7 +67,7 @@
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(97, 52);
             btnSave.TabIndex = 1;
-            btnSave.Text = "Save Hand";
+            btnSave.Text = "&Save Hand";
             btnSave.UseVisualStyleBackColor = true;
             btnSave.Click += btnSave_Click;
             // 
@@ -77,7 +77,7 @@
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(97, 52);
             btnLoad.TabIndex = 2;
-            btnLoad.Text = "Load Hand";
+            btnLoad.Text = "&Load Hand";
             btnLoad.UseVisualStyleBackColor = true;
             btnLoad.Click += btnLoad_Click;
             // 
@@ -88,7 +88,7 @@
             chkKeep1.Name = "chkKeep1";
             chkKeep1.Size = new Size(77, 24);
             chkKeep1.TabIndex = 3;
-            chkKeep1.Text = "Keep 1";
+            chkKeep1.Text = "Keep &1";
             chkKeep1.UseVisualStyleBackColor = true;
             // 
             // chkKeep2
@@ -98,7 +98,7 @@
             chkKeep2.Name = "chkKeep2";
             chkKeep2.Size = new Size(77, 24);
             chkKeep2.TabIndex = 4;
-            chkKeep2.Text = "Keep 2";
+            chkKeep2.Text = "Keep &2";
             chkKeep2.UseVisualStyleBackColor = true;
             // 
             // chkKeep3
@@ -108,7 +108,7 @@
             chkKeep3.Name = "chkKeep3";
             chkKeep3.Size = new Size(77, 24);
             chkKeep3.TabIndex = 5;
-            chkKeep3.Text = "Keep 3";
+            chkKeep3.Text = "Keep &3";
             chkKeep3.UseVisualStyleBackColor = true;
             // 
             // chkKeep4
@@ -118,7 +118,7 @@
             chkKeep4.Name = "chkKeep4";
             chkKeep4.Size = new Size(77, 24);
             chkKeep4.TabIndex = 6;
-            chkKeep4.Text = "Keep 4";
+            chkKeep4.Text = "Keep &4";
             chkKeep4.UseVisualStyleBackColor = true;
             // 
             // chkKeep5
@@ -128,7 +128,7 @@
             chkKeep5.Name = "chkKeep5";
             chkKeep5.Size = new Size(77, 24);
             chkKeep5.TabIndex = 7;
-            chkKeep5.Text = "Keep 5";
+            chkKeep5.Text = "Keep &5";
             chkKeep5.UseVisualStyleBackColor = true;
             // 
             // lstHands
