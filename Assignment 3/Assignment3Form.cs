@@ -1,5 +1,6 @@
 using System.Windows.Forms;
 
+//I was unsure wether cards drawn should be shuffled back in deck or not. I assumed cards shouldnt be re-entered in the pool of cards.
 namespace Assignment_3
 {
     public partial class MainForm : Form
@@ -35,11 +36,21 @@ namespace Assignment_3
 
                 switch (i)
                 {
-                    case 0: keepCard = chkKeep1.Checked; break;
-                    case 1: keepCard = chkKeep2.Checked; break;
-                    case 2: keepCard = chkKeep3.Checked; break;
-                    case 3: keepCard = chkKeep4.Checked; break;
-                    case 4: keepCard = chkKeep5.Checked; break;
+                    case 0: 
+                        keepCard = chkKeep1.Checked; 
+                        break;
+                    case 1: 
+                        keepCard = chkKeep2.Checked; 
+                        break;
+                    case 2: 
+                        keepCard = chkKeep3.Checked; 
+                        break;
+                    case 3: 
+                        keepCard = chkKeep4.Checked; 
+                        break;
+                    case 4: 
+                        keepCard = chkKeep5.Checked; 
+                        break;
                 }
 
 
